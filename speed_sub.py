@@ -13,7 +13,7 @@ context = zmq.Context()
 socket = context.socket(zmq.SUB)
 
 print("Collecting updates from vehicle speed server...")
-socket.connect("tcp://localhost:5560")
+socket.connect("tcp://192.168.50.136:5560")
 
 # Subscribe to all
 socket.setsockopt_string(zmq.SUBSCRIBE, "speed:")
