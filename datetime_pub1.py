@@ -19,3 +19,4 @@ while True:
     socket.send_string(dt_string)
     time.sleep(1)
         
+https://github.com/siladikarlo856/point
